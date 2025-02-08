@@ -35,3 +35,29 @@ console.log(typeof scoreValue);
 
 // Javascript is Dynamically typed language that is variable types are determined at runtime and you do not need to explicitly declare the type of a variable
 
+// Memory
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myYoutubeName = "kashishbhatia.com"
+
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "kashish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// both the value changes in case of object dat (non primitive) because it is using heap that is referencing to the other value
+// whereas in case of primitive we use stack and there a copy is made of original and changes are made in copy not in original one
