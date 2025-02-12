@@ -36,10 +36,44 @@ const users = [
 ]
 // users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// destructuring object
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+// react concept
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "kashish")
+
+//apis
+
+// {                                 // json structure just like an object in json keys are also defined in string
+//     "name": "Kashish",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
