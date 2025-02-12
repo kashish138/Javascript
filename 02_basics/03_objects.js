@@ -24,7 +24,7 @@ const JsUser = {
 // console.log(JsUser.mySym)
 
 JsUser.email = "kashishb25@gmail.com"
-// Object.freeze(JsUser)     // freeze ke baad kuch change ni hoga
+//Object.freeze(JsUser)     // freeze ke baad kuch change ni hoga
 JsUser.email = "kashishg@gmail.com"
 // console.log(JsUser);
 
