@@ -97,3 +97,15 @@ fetch('https://jsonplaceholder.typicode.com/users')
     console.log(data);
 })
 .catch((error) => console.log(error))
+
+fetch('https//api.github.com/users/kashishbhatia')
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => console.log(error))
+
+// fetch method starts the process of fetching a resource from the network, returning a promise which is fulfilled once the reponse is available
+// interview ques - promise se aapne ek request kri or vha se ek error aaya toh vo aapko resolve mein milega ya reject mein, it will be as a response
